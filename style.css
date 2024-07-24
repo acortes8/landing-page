@@ -168,3 +168,55 @@ body {
 }
 
 /* quote section end */
+
+/* call to action section start */
+
+.call-to-action-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 100px;
+}
+
+.call-to-action-container {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 6px;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 50px 100px;
+    gap: 80px;
+}
+
+.call-to-action-left {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.call-to-action-main-text {
+    color:#F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+.call-to-action-secondary-text {
+    color:#F9FAF8;
+    font-size: 18px;
+
+}
+
+.call-to-action-button {
+    background-color: #3882F6;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 8px 28px;
+    border: 2px solid #F9FAF8;
+    color:#F9FAF8;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+/* call to action section end */
